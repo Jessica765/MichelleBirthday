@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Fuzzy Bubbles&display=swap");
+
+body, html {
+    height: 100%;
+    background: black;
+}
+.bgimg {
+    background-image: url("/images/candles.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: black;
+    background-color: transparent;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-size: 50px;
+    font-variant: small-caps;
+}
+
+.middle {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+

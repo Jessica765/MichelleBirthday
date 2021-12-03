@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fuzzy Bubbles&display=swap");
+
+body, html {
+    height: 100%;
+    background: black;
+}
+
+.password {
+    color: white;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.input {
+    text-align: center;
+}
+
+.btn-submit {
+    
+}
+
+.hint {
+    color: white;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}

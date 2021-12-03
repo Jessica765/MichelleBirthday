@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/entrance.css">
+        <title>Password Required</title>
+    </head>
+    <body>
+        <div class="password">
+            <h2>Enter the password</h2>
+            <div class="password input">
+                <input id="passIn" type="password">
+            </div>
+            <div>
+                <button class="btn-submit" type="button" onclick="CheckPass()">Enter</button>
+            </div>
+            <p class="hint"><em>Hint: The password is the birthday girl!</em></p>
+        </div>
+    </body>
+
+    <script>
+        function CheckPass() {
+            var pswd = "michelle"
+            var input = document.getElementById("passIn").value;
+            
+            if(input == pswd) {
+            window.location.replace("bDay.html");
+            }
+            else {
+            window.alert("Incorrect password. Please try again.");
+            document.getElementById("passIn").value = "";
+            }
+        }
+    </script>
+</html>
