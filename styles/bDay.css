@@ -14,22 +14,22 @@ body, html {
 }
 
 .bgimg-1 {
-    background-image: url("/images/bed.jpg");
+    background-image: url("../images/bed.jpg");
     height: 100%;
 }
 
 .bgimg-2 {
-    background-image: url("/images/stroller.jpg");
+    background-image: url("../images/stroller.jpg");
     height: 65%;
 }
 
 .bgimg-3 {
-    background-image: url("/images/emma.jpg");
+    background-image: url("../images/emma.jpg");
     height: 65%;
 }
 
 .bgimg-4 {
-    background-image: url("/images/london.jpg");
+    background-image: url("../images/london.jpg");
     height: 65%;
 }
 
