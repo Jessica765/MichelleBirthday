@@ -10,28 +10,31 @@ body, html {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bgimg-1 {
     background-image: url("../images/bed.jpg");
+    background-position: center;
     height: 100%;
 }
 
 .bgimg-2 {
     background-image: url("../images/stroller.jpg");
+    background-position: 47%;
     height: 65%;
 }
 
 .bgimg-3 {
     background-image: url("../images/emma.jpg");
+    background-position: 45%;
     height: 65%;
 }
 
 .bgimg-4 {
     background-image: url("../images/london.jpg");
+    background-position: 76%;
     height: 65%;
 }
 
