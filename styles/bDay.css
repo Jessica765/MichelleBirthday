@@ -2,11 +2,13 @@
 
 body, html {
     height: 100%;
-    background-color: black;
+    background-color: #777;
+    margin: 0;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     position: relative;
+    opacity: 0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,6 +40,8 @@ body, html {
     font-size: 20px;
     color: white;
     text-align: center;
+    background-color: #474747;
+    padding: 50px;
 }
 
 .caption {

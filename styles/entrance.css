@@ -4,6 +4,7 @@
 body, html {
     height: 100%;
     background: black;
+    margin: 0;
 }
 
 .password {
@@ -19,7 +20,20 @@ body, html {
 }
 
 .btn-submit {
-    
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px 2px;
+    opacity: 1;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.btn-submit:hover {
+    opacity: 0.65;
 }
 
 .hint {

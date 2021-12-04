@@ -3,6 +3,7 @@
 body, html {
     height: 100%;
     background: black;
+    margin: 0;
 }
 .bgimg {
     background-image: url("../images/candles.jpg");
