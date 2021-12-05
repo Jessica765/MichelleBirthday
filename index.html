@@ -9,15 +9,18 @@
 
   <div class="bgimg">
     <div class="middle">
-      <h1>Coming Soon</h1>
+      <h1 style="font-size: 90px;">COMING SOON</h1>
       <p id="countdown"></p>
     </div>
+    <button class="btn" id="button" onclick="window.location.replace('entrance.html')">Open</button>
   </div>
 
 
   <script>
     // Set the date we're counting down to
-    var countDownDate = new Date("Dec 6, 2021 23:59:59").getTime();
+    var countDownDate = new Date("Dec 7, 2021 00:01:00").getTime();
+
+    var button = document.getElementById("button");
 
     // Update the count down every 1 second
     var x = setInterval(function () {
@@ -41,6 +44,10 @@
       if (distance < 0) {
         clearInterval(x);
         document.getElementById("countdown").innerHTML = "It's time!";
+        button.style.display = "block";
+      }
+      else {
+        button.style.display = "none";
       }
     }, 1000);
     </script>

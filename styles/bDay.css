@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fuzzy Bubbles&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu Mono&display=swap");
 
 body, html {
     height: 100%;
@@ -39,10 +39,10 @@ body, html {
 }
 
 .text {
-    font-family: "Fuzzy Bubbles", sans-serif;
-    font-size: 20px;
+    font-family: "Ubuntu Mono", sans-serif;
+    font-size: 25px;
     color: white;
-    text-align: center;
+    text-align: justify;
     background-color: #474747;
     padding: 50px;
 }
@@ -54,7 +54,7 @@ body, html {
     width: 100%;
     text-align: center;
     color: white;
-    font-family: "Fuzzy Bubbles", sans-serif;
+    font-family: "Ubuntu Mono", sans-serif;
     font-variant: small-caps;
 }
 
